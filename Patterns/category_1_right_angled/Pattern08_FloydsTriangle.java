@@ -17,28 +17,15 @@ public class Pattern08_FloydsTriangle {
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
     System.out.println("Your pattern is ");
+    int a = 1;
+    for( int i =1 ;i<=n;i++){
+        for(int j = 1 ; j <= i ; j++){
+            System.out.print(a +" ");
+            a++;
+        }
+        System.out.println();
+    }
     
-    // Another way of doing it is starting i from the reverse side - for the outer loop usiong ternary operator 
-// for (int i = 1; i<= n ; i++){
-//         for (int j = 1; j<=i ; j++){
-//             System.out.print((i+j)%2 == 0 ? "1 " : "0 " );
-        
-//         }
-//         System.out.println();
-//     }
-   //Antoher way of doing it is taking a flag and incrweasing after every j every no printed 
-   
-//    boolean Flag = true;
-//    for (int i = 1; i<= n ; i++){
-//         for (int j = 1; j<=i ; j++){
-//             if(Flag)
-//             System.out.print("1 ");
-//          else
-//             System.out.print("0 ");
-//         Flag = !Flag;
-//         }
-//         System.out.println();
-//     }
     sc.close();
 }
 }
