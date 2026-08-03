@@ -16,7 +16,7 @@ public class Pattern15_ReverseAlphabetTriangle {
     System.out.println("Enter the no count ");
     Scanner sc = new Scanner(System.in);
     int n = sc.nextInt();
-    int k = n ;
+    
     System.out.println("Your pattern is ");
    
     for(int i=n;i>=1;i--){
