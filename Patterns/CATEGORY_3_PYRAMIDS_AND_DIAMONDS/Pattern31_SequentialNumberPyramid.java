@@ -25,24 +25,24 @@ public class Pattern31_SequentialNumberPyramid {
         System.out.println();
 
     }
-    //another method is there 
-    /*no of spaces are decreasing so we will start it with a variable 
-    1st line 4 spaces thats n-1 then decreases by 1 
-    star starts from 1 increases up to n */
-    int nsp=n-1,nst=1;
+    // //another method is there 
+    // /*no of spaces are decreasing so we will start it with a variable 
+    // 1st line 4 spaces thats n-1 then decreases by 1 
+    // star starts from 1 increases up to n */
+    // int nsp=n-1,nst=1;
     
-     for(int i=1;i<=n;i++){
-        for(int j=1;j<=nsp;j++){
-            System.out.print(" "+" ");//did it by coutning space and stars pattern sequentially 
-        }
-        for(int j=1;j<=nst;j++){
-            System.out.print(j+" ");
-        }
-        nst+=2;
-        nsp--;
-        System.out.println();
+    //  for(int i=1;i<=n;i++){
+    //     for(int j=1;j<=nsp;j++){
+    //         System.out.print(" "+" ");//did it by coutning space and stars pattern sequentially 
+    //     }
+    //     for(int j=1;j<=nst;j++){
+    //         System.out.print(j+" ");
+    //     }
+    //     nst+=2;
+    //     nsp--;
+    //     System.out.println();
 
-    }
+    // }
     sc.close();
     }
 }
